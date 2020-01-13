@@ -1,4 +1,4 @@
-How mconley uses Mercurial for Mozilla code
+# How mconley uses Mercurial for Mozilla code
 
 This document tries to capture my common Mercurial (`hg`) use-patterns with Mozilla code. The irony of hosting this on GitHub is not lost on me.
 
