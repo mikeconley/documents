@@ -353,7 +353,7 @@ Sometimes you want to manually move one or more revisions around in the tree. Yo
 
 Under the hood, Mercurial isn't actually _moving_ these revisions. It's creating new revisions and then hiding the old ones in the graph. This means that if you somehow get into a bad state with your rebase (or even after your rebase), your old committed work will still be in the tree as hidden revisions. You can view them with `hg glog --hidden`. [See this section on how to bring hidden revisions back to life](#bring-back-hidden-revisions).
 
-Suppose I want to rebase a revision `a316e957c675` so that it's parent is `central`. I would do that like this:
+Suppose I want to rebase a revision `a316e957c675` so that its parent is `central`. I would do that like this:
 
 ```
 hg rebase -r a316e957c675 --dest central
