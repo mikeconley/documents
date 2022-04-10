@@ -164,7 +164,7 @@ So the `@` moved automatically for us - the working directory is currently in th
 
 # "Whoops, I forgot to add a file"
 
-If we add a new to the codebase, we have to explicitly tell Mercurial that it's a file that's worth caring about and adding. We do this with the `hg add` command.
+If we add a new file to the codebase, we have to explicitly tell Mercurial that it's a file that's worth caring about and adding. We do this with the `hg add` command.
 
 *Note: Unlike `git`, the `hg add` command is not for adding a file to some kind of staging area for a commit. Mercurial has no notion of a staging area.*
 
