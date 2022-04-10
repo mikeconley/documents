@@ -8,7 +8,7 @@ This document is mainly meant to be read from top-to-bottom, but [this section](
 
 # Intended audience
 
-I'm writing this primarily for the waves of new contributors I tend to mentor each semester as part of various programs like Outreachy, GSoC, CANOSP, and the MSU Capstone course. This document assumes you're at least somewhat familiar with a DVCS like `git`, but probably haven't used `hg` much beyond maybe cloning a repository.
+I'm writing this primarily for the waves of new contributors I tend to mentor each semester as part of various programs like Outreachy, GSoC, CANOSP, and the MSU Capstone course - but really, this document is for anybody who wants hints, tips or another perspective on using Mercurial on Mozilla code. This document assumes you're at least somewhat familiar with a DVCS like `git`, but probably haven't used `hg` much beyond maybe cloning a repository.
 
 This document also assumes you're working on either the `mozilla-unified` or `mozilla-central` repositories. Some of what I'm describing might work or make sense for other non-Mozilla projects, but almost certainly there are parts that just won't. So if you've found this page while hunting for a **general guide to using Mercurial**, this is probably not the right choice, and you should keep hunting.
 
