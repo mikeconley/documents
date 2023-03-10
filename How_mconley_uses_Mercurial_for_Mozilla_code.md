@@ -49,7 +49,7 @@ I also use most of the things that `./mach vcs-setup` gives you.
 
 You'll probably want to set those up if you want to use the same `hg` commands I use, in the same way.
 
-I believe by default, Mercurial will use `vi` any time it needs to pop open an editor. If you're not familiar with `vi`, [maybe get familiar with the basics](https://getintodevops.com/blog/how-the-hell-do-i-exit-a-beginners-guide-to-vim) - particularly how to add text, and how to save and quit. Alternatively, [change the default editor to something you're more comfortable with](https://stackoverflow.com/questions/3975164/how-can-i-use-vim-not-vi-to-write-commit-message).
+I believe by default, Mercurial will use `vi` any time it needs to pop open an editor. If you're not familiar with `vi`, [maybe get familiar with the basics](https://www.linuxfoundation.org/blog/blog/classic-sysadmin-vim-101-a-beginners-guide-to-vim) - particularly how to add text, and how to save and quit. Alternatively, [change the default editor to something you're more comfortable with](https://stackoverflow.com/questions/3975164/how-can-i-use-vim-not-vi-to-write-commit-message).
 
 I also generally do not prefer the three-way merge tools like KDiff. Nothing against the authors of those tools or their fans, but I just don't prefer them. I prefer "conflict markers". This means that when Mercurial can't properly merge some changes together, it puts special markers in the file with the sections of code it couldn't merge, and leaves it up to you to sort it out. See [the Conflict resolution](#conflict-resolution) section for details on that.
 
